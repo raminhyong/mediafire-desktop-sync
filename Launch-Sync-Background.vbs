@@ -2,8 +2,8 @@ Set WshShell = CreateObject("WScript.Shell")
 Set FSO = CreateObject("Scripting.FileSystemObject")
 
 currentDir = FSO.GetParentFolderName(WScript.ScriptFullName)
-pythonwExe = currentDir & "\.venv\Scripts\pythonw.exe"
+pythonExe = currentDir & "\.venv\Scripts\python.exe"
 syncScript = currentDir & "\sync_engine.py"
 
 WshShell.CurrentDirectory = currentDir
-WshShell.Run """" & pythonwExe & """ """ & syncScript & """", 0, False
+WshShell.Run """" & pythonExe & """ """ & syncScript & """", 0, False

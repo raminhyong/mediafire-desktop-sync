@@ -6,6 +6,7 @@ MediaFire_Sync/
 *.downloading
 sync_activity.log
 .sync_catalog.json
+.sync.lock
 
 # Python virtual environment & cache
 .venv/
