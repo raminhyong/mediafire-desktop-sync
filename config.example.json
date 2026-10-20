@@ -1,0 +1,8 @@
+{
+  "email": "your_email@example.com",
+  "password": "your_password",
+  "app_id": "42511",
+  "sync_directory": "./MediaFire_Sync",
+  "remote_folder_key": "myfiles",
+  "poll_interval_seconds": 30
+}

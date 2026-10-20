@@ -1,0 +1,27 @@
+# Sensitive credentials and configuration
+config.json
+
+# Local sync folder contents & user data
+MediaFire_Sync/
+*.downloading
+sync_activity.log
+.sync_catalog.json
+
+# Python virtual environment & cache
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Binary files & adware installers
+*.exe
+*.quarantined_adware
+
+# Windows system files
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
