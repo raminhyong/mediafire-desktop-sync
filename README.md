@@ -70,7 +70,7 @@ Mediafire/
 ### ขั้นตอนที่ 1: Clone Repository
 เปิด PowerShell หรือ Command Prompt ในโฟลเดอร์ที่ต้องการจัดเก็บ แล้วรันคำสั่ง:
 ```bash
-git clone https://github.com/raminhyong/<repo-name>.git Mediafire
+git clone https://github.com/raminhyong/mediafire-desktop-sync.git Mediafire
 cd Mediafire
 ```
 
